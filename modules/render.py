@@ -1,5 +1,5 @@
 from modules.mesh import Mesh
-import kaolin as kal
+# import kaolin as kal
 from modules.utils import get_camera_from_view2
 import matplotlib.pyplot as plt
 from modules.utils import device

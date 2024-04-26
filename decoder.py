@@ -11,7 +11,8 @@ import time
 import torch
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
-from modules.utils import device, setcolor_mesh_batched, load_state_dict, find_red_green_pixels, show_mask, show_points, loadmesh, add_spheres, write_ply
+
+# from modules.utils import device, setcolor_mesh_batched, load_state_dict, find_red_green_pixels, show_mask, show_points, loadmesh, add_spheres, write_ply
 from modules.dataset import DecoderDataset
 from modules.render import save_renders, Renderer
 from modules.click_attention import ClickAttention

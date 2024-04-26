@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-import kaolin as kal
-import kaolin.ops.mesh
+# import kaolin as kal
+# import kaolin.ops.mesh
 from collections import defaultdict, OrderedDict
 try:
     import open3d as o3d
